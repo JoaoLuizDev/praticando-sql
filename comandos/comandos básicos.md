@@ -57,7 +57,7 @@ SELECT nome, idade FROM usuarios ORDER BY idade DESC;
 **Exemplo**:<br>
 SELECT cidade, COUNT(*) FROM clientes GROUP BY cidade;
 ***
-### HAVING<br>
+#### HAVING<br>
 **Função**: Filtra os resultados de um GROUP BY com base em uma condição.<br>
 **Exemplo**:<br>
 SELECT cidade, COUNT(*) FROM clientes GROUP BY cidade HAVING COUNT(*) > 1;
